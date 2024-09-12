@@ -5,3 +5,26 @@
  * https://opensource.org/licenses/MIT
  */
 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.all-content{
+    background: #f7f5f2;
+}
+
+html ::-webkit-scrollbar-track{
+    background: transparent
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #b2744c;
+}
